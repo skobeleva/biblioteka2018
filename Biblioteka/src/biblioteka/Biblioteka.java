@@ -30,7 +30,7 @@ public class Biblioteka implements BibliotekaInterfejs {
 
 	@Override
 	public LinkedList<Knjiga> pronadjiKnjigu(String naslov, Autor autor, String isbn, String izdavac) {
-		//moj javni komentar
+		//moj privatni komentar
 		if(naslov==null)
 			return null;
 		LinkedList<Knjiga> novaLista= new LinkedList<Knjiga>();
